@@ -21,3 +21,9 @@ If using an em for anything other than font sizing i.e. margin, padding etc., it
 The `max-width` property avoids the issue where content spreads too far horizontally. You combine a `width` setting with `max-width`. As an example, setting {`width: 80%, max-width: 750px`} will mean the element will have 80% width until it hits 700px wide where it will then stop widening
 
 There is a `min-width` property that does the opposite of `max-width`. This can be used to stop an element shrinking beyond a certain size.
+
+## Day 4
+
+vw and vh are units of measurement based on the viewport width and height. Widths and heights are based on the width / length of the viewport and parent width is not taken into consideration like setting a width / height using a percentage.
+
+vmin and vmax are also based on the above. They depend on what is the largest or smallest dimension in the viewport. As an example, 10vmin will be 10% of the height or width, depending on what is the smallest. vmax works in a similar way but relates to the largest dimension.
