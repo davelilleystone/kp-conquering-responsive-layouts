@@ -27,3 +27,7 @@ There is a `min-width` property that does the opposite of `max-width`. This can 
 vw and vh are units of measurement based on the viewport width and height. Widths and heights are based on the width / length of the viewport and parent width is not taken into consideration like setting a width / height using a percentage.
 
 vmin and vmax are also based on the above. They depend on what is the largest or smallest dimension in the viewport. As an example, 10vmin will be 10% of the height or width, depending on what is the smallest. vmax works in a similar way but relates to the largest dimension.
+
+## Day 5
+
+See challenge 3
